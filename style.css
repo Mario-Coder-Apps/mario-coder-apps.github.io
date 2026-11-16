@@ -97,6 +97,22 @@ body {
 .app-itc .app-line { color: #4a4d63; }
 .app-itc .app-go { color: #33364d; }
 
+/* Colorwall: the icon's night blue, paper and butter */
+.app-cw {
+  background: radial-gradient(130% 120% at 0% 0%, #3a5079 0%, #2b3d5e 55%, #223250 100%);
+  border: 1.5px solid #4f6390;
+  box-shadow: 0 10px 26px rgba(0, 0, 0, 0.42), inset 0 1px 0 rgba(251, 244, 234, 0.14);
+}
+.app-cw .app-name { color: #fbf4ea; }
+.app-cw .app-line { color: #f3e3b8; }
+.app-cw .app-go { color: #d9b4d6; }
+.app-soon {
+  display: inline-block; vertical-align: 3px; margin-left: 6px;
+  padding: 2px 8px; border-radius: 999px;
+  font-size: 11px; font-weight: 800; letter-spacing: 1px; text-transform: uppercase;
+  color: #2b3d5e; background: #f3e3b8;
+}
+
 /* --- footer --- */
 footer {
   text-align: center;
